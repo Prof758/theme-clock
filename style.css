@@ -76,5 +76,14 @@ body {
 }
 
 .clock-hands.hour {
-  transform: translate(-50%, -100%), rotate(0deg);
+  transform: translate(-50%, -100%) rotate(0deg);
+}
+.clock-hands.minute {
+  transform: translate(-50%, -100%) rotate(0deg);
+  height: 80px;
+}
+.clock-hands.second {
+  transform: translate(-50%, -100%) rotate(0deg);
+  background-color: #d12727;
+  height: 80px;
 }
